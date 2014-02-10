@@ -1,9 +1,10 @@
 <?php
-$config['host']='localhost';
-$config['userdb']='root';
-$config['passdb']='';
-$config['nomedb']='chat';
-
+$config = array(
+        "host" =>"localhost",
+        "nomedb" =>"chat",
+        "userdb" =>"root",
+        "passdb" =>"",
+);
 
 return $config;
 ?>
